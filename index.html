@@ -3,19 +3,21 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>un.zip</title>
+	<style>.hidden {display: none}</style>
 </head>
 
 <body>
-	<form name="contact" netlify>
+	<form name="contact" action="confirm.html" netlify>
 		<p>
 			un.zip is a collection of files sent via email. please enter your email below to receive the next issue.
 		</p>
 		<p>
-		  <label>name <input type="text" name="name" /></label>
-		  <br>
-		  <label>email <input type="email" name="email" /></label>
-		  <br>
-		  <button type="submit">submit</button>
+			<label class="hidden">honey <input name="bot-field" /></label>
+			<label>name <input type="text" name="name" /></label>
+			<br>
+			<label>email <input type="email" name="email" /></label>
+			<br>
+			<button type="submit">submit</button>
 		</p>
 	  </form>
 	</body>
